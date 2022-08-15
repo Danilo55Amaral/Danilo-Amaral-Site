@@ -2,6 +2,8 @@ import { AppProps } from "next/app"
 import { GlobalStyle } from '../styles/global';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect } from "react";
+import { Header } from "../components/Header";
+
 
 function MyApp({ Component, pageProps }: AppProps) {
 
@@ -13,6 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Component {...pageProps} />
       <GlobalStyle />
+      <Header />
     </>
   )
 }
