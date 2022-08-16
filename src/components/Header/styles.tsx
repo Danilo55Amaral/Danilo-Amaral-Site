@@ -77,6 +77,8 @@ export const Container = styled.header`
         button {
             margin-top: 20px;
             margin-bottom: 20px;
+            border: none;
+            box-shadow: none;
         }
     }
 
@@ -85,6 +87,8 @@ export const Container = styled.header`
         button {
             margin-top: 20px;
             margin-bottom: 20px;
+            border: none;
+            box-shadow: none;
         }
     }
 `;
