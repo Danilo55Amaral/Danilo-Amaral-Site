@@ -1,3 +1,8 @@
+import { Buttonanimate } from "../components/ButtonAnimate";
+
 export default function about() {
-    <h1>Sobre</h1>
+    return (
+        <Buttonanimate />
+    )
+    
 }
