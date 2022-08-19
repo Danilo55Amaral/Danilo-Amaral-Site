@@ -1,8 +1,11 @@
-import { Buttonanimate } from "../components/ButtonAnimate";
+import Head from "next/head";
 
 export default function about() {
     return (
-        <Buttonanimate />
-    )
-    
-}
+        <>
+            <Head>
+                <title>Danilo | Sobre</title>
+            </Head>
+        </>
+    );
+};

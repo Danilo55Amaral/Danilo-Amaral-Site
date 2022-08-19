@@ -1,3 +1,9 @@
+import Head from "next/head";
+
 export default function portfolio() {
-    <h1>Portfolio</h1>
-}
+    return (
+        <Head>
+            <title>Danilo | Portfólio</title>
+        </Head>
+    );
+};

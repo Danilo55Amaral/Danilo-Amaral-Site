@@ -1,3 +1,9 @@
+import Head from "next/head";
+
 export default function contact() {
-    <h1>Contato</h1>
-}
+    return (
+        <Head>
+            <title>Danilo | Contato</title>
+        </Head>
+    );
+};
