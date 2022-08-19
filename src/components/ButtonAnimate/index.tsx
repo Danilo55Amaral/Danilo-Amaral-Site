@@ -1,6 +1,5 @@
 import { Container } from "./styles";
 
-
 export function Buttonanimate() {
     return (
         <Container>
