@@ -39,8 +39,39 @@ export const Container = styled.div`
                 }
             }
         }
-    }
 
+        .container-services {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 80%;
+            margin-top: 60px;
+
+            span {
+                align-self: center;
+                font: 600 1.5rem "Roboto", sans-serif;
+                color: var(--orange-500);
+                margin-top:  20px;
+            }
+
+            h1 {
+                align-self: center;
+                font: 400 2rem "Roboto", sans-serif;
+            }
+
+            .group-services {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 60px;
+            }
+
+            .card-services {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
         /* Responsive */
     @media (max-width: 1080px) {
         .container-profile {
@@ -51,14 +82,32 @@ export const Container = styled.div`
                     margin-top: 30px;
                 }
             }
+
+            .group-services {
+                flex-direction: column;
+                margin-top: 30px !important;
+            
+                .card-services {
+                    margin-top: 30px;
+                }
+            }
         }
-        
+
     @media (max-width: 720px) {
         .container-profile {
             flex-direction: column;
             height: 700px !important;
 
             .content {
+                margin-top: 30px;
+            }
+        }
+
+        .group-services {
+            flex-direction: column;
+            margin-top: 30px !important;
+            
+            .card-services {
                 margin-top: 30px;
             }
         }
