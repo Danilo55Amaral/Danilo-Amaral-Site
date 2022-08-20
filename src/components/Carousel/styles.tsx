@@ -5,7 +5,6 @@ export const Container = styled.div`
 .carousel-container {
       width: 100%;
       padding-bottom: 30px;
-      margin-top: 120px;
       border-top: 5px solid var(--magenta);
       cursor: pointer;
       

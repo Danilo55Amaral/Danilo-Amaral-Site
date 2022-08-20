@@ -11,7 +11,7 @@ export const Container = styled.header`
             margin: 0 7px;
             padding: 0 7px;
             font: 600 1.5rem "Roboto", sans-serif;
-            color: var(--orange-900)
+            color: var(--orange-500);
         }
 
         ul {
