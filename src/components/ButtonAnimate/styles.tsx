@@ -2,10 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div `
 
-    h1 {
-        margin-top: 100px;
-    }
-
     .gradient-button {
         position: relative;
         width: 230px;
@@ -13,27 +9,32 @@ export const Container = styled.div `
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #FFF;
+        color: var(--orange-500);
         font-family: "Roboto";
-        font-size: 20px;
+        font-size: 10px;
         font-weight: 300;
         text-decoration: none;
         border-radius: 10px;
         overflow: hidden;
         cursor: pointer;
-        margin-top: 100px;
+        margin-top: 50px;
+        margin-left: 30px;
     }
 
     .button {
             width: 100%;
             height: 100%;
-            background-color: #000;
+            background-color: var(--green-900);
             border-radius: 9px;
             display: flex;
             justify-content: center;
             align-items: center;
             z-index: 1;
             transition: all 500ms;
+
+            span {
+                margin-bottom: 30px;
+            }
         }
 
         .gradient {

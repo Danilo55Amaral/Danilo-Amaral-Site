@@ -2,6 +2,8 @@ import Head from "next/head";
 import { Carousel } from "../components/Carousel";
 import { Container } from "../styles/home.module";
 import Image from "next/image";
+import Link from "next/link";
+import { Buttonanimate } from "../components/ButtonAnimate";
 
 export default function Home() {
   return (
@@ -44,6 +46,30 @@ export default function Home() {
               <span>SEO</span>
             </div>
           </div>
+        </section>
+        <section className="container-projects">
+          <span>Alguns projetos</span>
+          <div className="group-projects">
+            <div className="card-project">
+              <div className="image-project">
+                <Image src="/img/seo.jpg" alt="perfil" width={300} height={300} />
+              </div>
+              <span>Projeto</span>
+            </div>
+            <div className="card-project">
+              <div className="image-project">
+                <Image src="/img/seo.jpg" alt="perfil" width={300} height={300} />
+              </div>
+              <span>Projeto</span>
+            </div>
+            <div className="card-project">
+              <div className="image-project">
+                <Image src="/img/seo.jpg" alt="perfil" width={300} height={300} />
+              </div>
+              <span>Projeto</span>
+            </div>
+          </div>
+          <Buttonanimate />
         </section>
       </main>
     </Container>

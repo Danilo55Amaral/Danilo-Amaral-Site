@@ -6,7 +6,7 @@ export function Buttonanimate() {
             <a href="#" className="gradient-button">
                 <div className="gradient"></div>
                 <div className="button">
-                    <span>Botão</span>
+                    <span>Projetos</span>
                 </div>
             </a>
         </Container>

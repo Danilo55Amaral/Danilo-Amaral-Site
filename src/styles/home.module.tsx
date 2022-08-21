@@ -71,10 +71,48 @@ export const Container = styled.div`
                 align-items: center;
             }
         }
+
+        .container-projects {
+            display: flex;
+            flex-direction: column;
+            width: 85%;
+            height: 700px;
+            margin-top: 150px;
+            background-color: #14131a;
+            border-radius: 15px;
+
+            span {
+                align-self: center;
+                font: 600 3rem "Roboto", sans-serif;
+                margin-top: 30px;
+            }
+
+            .group-projects {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 50px;
+
+                .card-project {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .image-project {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: solid 5px var(--dark-violet);
+                    border-radius: 10px;
+                }
+            }
+        }
     }
+
         /* Responsive */
     @media (max-width: 1080px) {
-        .container-profile {
+            .container-profile {
                 flex-direction: column;
                 height: 700px !important;
 
@@ -86,12 +124,30 @@ export const Container = styled.div`
             .group-services {
                 flex-direction: column;
                 margin-top: 30px !important;
-            
+                
                 .card-services {
                     margin-top: 30px;
                 }
             }
+
+            .container-projects {
+                width: 90% !important;
+                height: 1500px !important;
+                align-items: center !important;
+                margin-top: 90px !important;
+
+                .group-projects {
+                    flex-direction: column;
+                    width: 80%;
+                    
+                    .card-project {
+                        margin-top: 30px;
+
+                    }
+                }
+            }
         }
+    }
 
     @media (max-width: 720px) {
         .container-profile {
@@ -110,6 +166,22 @@ export const Container = styled.div`
             .card-services {
                 margin-top: 30px;
             }
+        }
+
+        .container-projects {
+            width: 90% !important;
+            height: 1500px !important;
+            align-items: center !important;
+            margin-top: 90px !important;
+
+            .group-projects {
+                flex-direction: column;
+                width: 80%;
+                
+                .card-project {
+                    margin-top: 30px;
+                }
+           }
         }
     }
 `;
