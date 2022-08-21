@@ -97,6 +97,10 @@ export const Container = styled.div`
                     justify-content: center;
                     flex-direction: column;
                     align-items: center;
+
+                    span {
+                        font: 500 1.5rem "Roboto", sans-serif;
+                    }
                 }
 
                 .image-project {
@@ -142,6 +146,7 @@ export const Container = styled.div`
                     
                     .card-project {
                         margin-top: 30px;
+                        
 
                     }
                 }

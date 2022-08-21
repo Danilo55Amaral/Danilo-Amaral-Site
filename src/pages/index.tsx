@@ -52,21 +52,21 @@ export default function Home() {
           <div className="group-projects">
             <div className="card-project">
               <div className="image-project">
-                <Image src="/img/seo.jpg" alt="perfil" width={300} height={300} />
+                <Image src="/img/template-admin.png" alt="perfil" width={300} height={300} />
               </div>
-              <span>Projeto</span>
+              <span>Template administrativo<br/> com autenticação</span>
             </div>
             <div className="card-project">
               <div className="image-project">
-                <Image src="/img/seo.jpg" alt="perfil" width={300} height={300} />
+                <Image src="/img/dt-money.png" alt="perfil" width={300} height={300} />
               </div>
-              <span>Projeto</span>
+              <span>Sistema de controle <br/> de finanças</span>
             </div>
             <div className="card-project">
               <div className="image-project">
-                <Image src="/img/seo.jpg" alt="perfil" width={300} height={300} />
+                <Image src="/img/quiz-full.jpg" alt="perfil" width={300} height={300} />
               </div>
-              <span>Projeto</span>
+              <span>Quiz de perguntas <br/> com desenpenho</span>
             </div>
           </div>
           <Buttonanimate />
