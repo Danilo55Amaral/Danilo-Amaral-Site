@@ -4,6 +4,7 @@ import { Container } from "../styles/home.module";
 import Image from "next/image";
 import Link from "next/link";
 import { Buttonanimate } from "../components/ButtonAnimate";
+import { Footer } from "../components/Footer";
 
 export default function Home() {
   return (
@@ -72,6 +73,7 @@ export default function Home() {
           <Buttonanimate />
         </section>
       </main>
+      <Footer />
     </Container>
   );
 };

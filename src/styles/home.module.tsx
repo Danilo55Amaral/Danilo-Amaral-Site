@@ -78,7 +78,7 @@ export const Container = styled.div`
             width: 85%;
             height: 700px;
             margin-top: 150px;
-            background-color: #14131a;
+            background-color: var(--dark);
             border-radius: 15px;
 
             span {

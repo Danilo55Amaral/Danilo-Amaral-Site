@@ -10,7 +10,7 @@ export const Container = styled.footer `
         margin-bottom: 0;
         width:100%;
         height:260px;  /* Mesma Altura do Rodapé */
-        background-color: var(--gray-900);
+        background-color: var(--dark);
         color: var(--white);
 
         margin-top: 90px;
@@ -18,7 +18,7 @@ export const Container = styled.footer `
         .bar {
             width: 100%;
             height: 50px;
-            background-color: var(--gray-500);
+            background-color: var(--blue-800);
             display: flex;
             align-items: center;
             justify-content: center;
