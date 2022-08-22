@@ -69,4 +69,18 @@ export const GlobalStyle = createGlobalStyle`
         color: inherit;
         text-decoration: none;
     }
+
+    /* scroll bar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: var(--blue-900);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--dark-violet);
+        border-radius: 10px;
+    }
 `;
