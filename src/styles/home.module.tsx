@@ -107,7 +107,7 @@ export const Container = styled.div`
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    border: solid 5px var(--dark-violet);
+                    border: solid 5px var(--white);
                     border-radius: 10px;
                 }
             }
