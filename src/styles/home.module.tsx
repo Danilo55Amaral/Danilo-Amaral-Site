@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+
     main {
         max-width: 100%;
         margin: 100px auto;
@@ -32,6 +33,26 @@ export const Container = styled.div`
 
                 h1 {
                     font: 500 3rem "Roboto", sans-serif;
+                    color: var(--blue-800);
+                }
+
+                h1::before {
+                    content: attr(data-text);
+                    position: absolute;
+                    width: 0%;
+                    height: 100%;
+                    color: var(--white);
+                    overflow: hidden;
+                    animation: animate 6s linear infinite;
+                }
+
+                @keyframes animate {
+                    0%{
+                        width: 0;
+                    }
+                    70%{
+                        width: 50%;
+                    }
                 }
 
                 p {
