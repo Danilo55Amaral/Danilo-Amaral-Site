@@ -183,6 +183,16 @@ export const Container = styled.div`
             .content {
                 margin-top: 30px;
             }
+
+            /* animate - necessario alteração apenas em max-width: 720px  */
+                @keyframes animate {
+                    0%{
+                        width: 0;
+                    }
+                    70%{
+                        width: 80%;
+                    }
+                }
         }
 
         .group-services {
