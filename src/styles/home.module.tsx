@@ -133,6 +133,27 @@ export const Container = styled.div`
                     border-radius: 10px;
                 }
             }
+
+            button {
+                    padding: 1rem 1.5rem;
+                    margin-top: 4rem;
+                    margin-right: 50px;
+                    border-radius: 8px;
+                    border: 0;
+                    width: 10rem;
+                    align-self: flex-end;
+                    background: var(--dark-violet);
+                    color: var(--white);
+                    font-weight: bold;
+                    cursor: pointer
+                    transition: background-color 0.2s;
+                    transition: color 0.2s;
+                }
+
+                button:hover {
+                    background-color: var(--hover-blue);
+                    color: var(--dark-violet);
+                }
         }
     }
 

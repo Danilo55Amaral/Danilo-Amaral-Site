@@ -3,7 +3,6 @@ import { Carousel } from "../components/Carousel";
 import { Container } from "../styles/home.module";
 import Image from "next/image";
 import Link from "next/link";
-import { Buttonanimate } from "../components/ButtonAnimate";
 import { Footer } from "../components/Footer";
 
 export default function Home() {
@@ -55,22 +54,24 @@ export default function Home() {
               <div className="image-project">
                 <Image src="/img/template-admin.png" alt="perfil" width={300} height={300} />
               </div>
-              <span>Template administrativo<br/> com autenticação</span>
+              <span>Template administrativo<br /> com autenticação</span>
             </div>
             <div className="card-project">
               <div className="image-project">
                 <Image src="/img/dt-money.png" alt="perfil" width={300} height={300} />
               </div>
-              <span>Sistema de controle <br/> de finanças</span>
+              <span>Sistema de controle <br /> de finanças</span>
             </div>
             <div className="card-project">
               <div className="image-project">
                 <Image src="/img/quiz-full.jpg" alt="perfil" width={300} height={300} />
               </div>
-              <span>Quiz de perguntas <br/> com desenpenho</span>
+              <span>Quiz de perguntas <br /> com desenpenho</span>
             </div>
           </div>
-          <Buttonanimate />
+          <Link href="/portfolio">
+            <button type="submit">Projetos</button>
+          </Link>
         </section>
       </main>
       <Footer />
