@@ -36,6 +36,7 @@ export const Container = styled.div`
                     color: var(--blue-800);
                 }
 
+               /*animate */
                 h1::before {
                     content: attr(data-text);
                     position: absolute;

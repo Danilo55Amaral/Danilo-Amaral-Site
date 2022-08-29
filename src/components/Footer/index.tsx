@@ -12,7 +12,7 @@ export function Footer() {
                 <div className="content">
                     <div className="icons">
                         <span>SIGA-ME:</span>
-                        <Link href=" https://www.instagram.com/invites/contact/?i=oci0xypwwkje&utm_content=1zln8sh">
+                        <Link href="https://www.instagram.com/invites/contact/?i=oci0xypwwkje&utm_content=1zln8sh">
                             <FaInstagram />
                         </Link>
                         <Link href="https://www.linkedin.com/in/danilo-amaral-305457195/">

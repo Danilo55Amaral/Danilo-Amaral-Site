@@ -31,6 +31,7 @@ export const GlobalStyle = createGlobalStyle`
 
         --magenta: #FF00FF;
         --dark-violet: #9400D3;
+        --hover-blue: #47FFE7;
     }
 
     * {
