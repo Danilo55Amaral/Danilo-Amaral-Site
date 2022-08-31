@@ -87,11 +87,13 @@ export const Container = styled.div`
                 align-items: center;
                 width: 50%;
                 height: 100%;
+                margin-bottom: 60px;
             }
 
             .group-tools {
                 display: flex;
                 flex-direction: column;
+                align-self: flex-start;
                 align-items: center;
                 width: 50%;
                 height: 100%;
@@ -141,6 +143,7 @@ export const Container = styled.div`
 
             .group-tools {
                 width: 100% !important;
+                margin-bottom: 60px;
             }    
         }
     }
@@ -164,6 +167,7 @@ export const Container = styled.div`
 
             .group-tools {
                 width: 100% !important;
+                margin-bottom: 60px;
             }       
         }
     }

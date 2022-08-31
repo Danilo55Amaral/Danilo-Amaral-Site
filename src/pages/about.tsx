@@ -5,7 +5,7 @@ import Link from "next/link";
 import { IconContext } from "react-icons";
 import { FaReact, FaAngular, FaBootstrap, FaHtml5, FaGithub, FaGitlab, FaSlack, FaGitSquare } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiStyledcomponents, SiTailwindcss, SiTypescript, SiJavascript, SiCss3, SiPhp, SiMysql, SiTrello, SiGoogleanalytics } from "react-icons/si";
+import { SiStyledcomponents, SiTailwindcss, SiTypescript, SiJavascript, SiCss3, SiPhp, SiMysql, SiTrello, SiGoogleanalytics, SiVercel, SiNetlify } from "react-icons/si";
 
 
 export default function about() {
@@ -154,6 +154,18 @@ export default function about() {
                             <span>Git</span>
                             <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
                                 <FaGitSquare />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Vercel Cloud</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiVercel />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Netlify Cloud</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiNetlify />
                             </IconContext.Provider>
                         </div>
                     </div>
