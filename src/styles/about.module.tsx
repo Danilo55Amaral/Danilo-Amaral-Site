@@ -65,6 +65,61 @@ export const Container = styled.div`
                 }
             }
         }
+
+        .container-skills {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            /* height: 400px; */
+            margin-top: 80px;
+            background-color: var(--blue-800);
+
+            h1 {
+                font: 600 2rem "Roboto", sans-serif;
+                margin-top: 30px;
+                color: var(--orange-500);
+            }
+
+            .group-skills {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 50%;
+                height: 100%;
+            }
+
+            .group-tools {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 50%;
+                height: 100%;
+            }
+
+            .card {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 90%;
+                    height: 5rem;
+                    margin-top: 20px;
+                    background-color: var(--dark);
+
+                    transition: background-color 0.2s;
+
+                    span {
+                        font: 600 2rem "Roboto", sans-serif;
+                        color: var(--dark-violet);
+                    }
+                }
+
+                .card:hover {
+                    background-color: var(--hover-blue);
+                    color: var(--dark-violet);
+                }
+        }
     }
 
     @media (max-width: 1080px) {
@@ -76,6 +131,18 @@ export const Container = styled.div`
                 width: 100% !important;
             }
         }
+
+        .container-skills {
+            flex-direction: column;
+
+            .group-skills {
+                width: 100% !important;
+            }
+
+            .group-tools {
+                width: 100% !important;
+            }    
+        }
     }
 
     @media (max-width: 720px) {
@@ -86,6 +153,18 @@ export const Container = styled.div`
             .content-profile {
                 width: 100% !important;
             }
+        }
+
+        .container-skills {
+            flex-direction: column;
+
+            .group-skills {
+                width: 100% !important;
+            }
+
+            .group-tools {
+                width: 100% !important;
+            }       
         }
     }
 `;

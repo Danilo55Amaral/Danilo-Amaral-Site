@@ -2,6 +2,10 @@ import Head from "next/head";
 import { Container } from "../styles/about.module";
 import Image from "next/image";
 import Link from "next/link";
+import { IconContext } from "react-icons";
+import { FaReact, FaAngular, FaBootstrap, FaHtml5, FaGithub, FaGitlab, FaSlack, FaGitSquare } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiStyledcomponents, SiTailwindcss, SiTypescript, SiJavascript, SiCss3, SiPhp, SiMysql, SiTrello, SiGoogleanalytics } from "react-icons/si";
 
 
 export default function about() {
@@ -36,6 +40,122 @@ export default function about() {
                         <Link href="https://wa.me/message/ZAEPJ4ITGJ3WL1">
                             <button type="submit">Entrar em Contato</button>
                         </Link>
+                    </div>
+                </section>
+                <section className="container-skills">
+                    <div className="group-skills">
+                        <h1>Habilidades</h1>
+                        <div className="card">
+                            <span>React</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <FaReact />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Nextjs</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <TbBrandNextjs />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Angular</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <FaAngular />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Styled-component</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiStyledcomponents />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Tailwind CSS</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiTailwindcss />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Bootstrap</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <FaBootstrap />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Typescript</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiTypescript />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Javascript</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiJavascript />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Html5</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <FaHtml5 />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Css3</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiCss3 />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Php</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiPhp />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Mysql</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiMysql />
+                            </IconContext.Provider>
+                        </div>
+                    </div>
+                    <div className="group-tools">
+                        <h1>Ferramentas</h1>
+                        <div className="card">
+                            <span>Trello</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiTrello />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Github</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <FaGithub />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Gitlab</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <FaGitlab />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Google Analytics</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiGoogleanalytics />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Slack</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <FaSlack />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Git</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <FaGitSquare />
+                            </IconContext.Provider>
+                        </div>
                     </div>
                 </section>
             </main>

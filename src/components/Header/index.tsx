@@ -34,16 +34,16 @@ export function Header() {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link href="/portfolio">
-                                        <a className={asPath === '/portfolio' ? "active" : ''}>
-                                            Portfólio
+                                    <Link href="/about">
+                                        <a className={asPath === '/about' ? "active" : ''}>
+                                            Sobre
                                         </a>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link href="/about">
-                                        <a className={asPath === '/about' ? "active" : ''}>
-                                            Sobre
+                                    <Link href="/portfolio">
+                                        <a className={asPath === '/portfolio' ? "active" : ''}>
+                                            Portfólio
                                         </a>
                                     </Link>
                                 </li>
