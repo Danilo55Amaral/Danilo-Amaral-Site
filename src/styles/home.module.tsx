@@ -145,7 +145,7 @@ export const Container = styled.div`
                     background: var(--dark-violet);
                     color: var(--white);
                     font-weight: bold;
-                    cursor: pointer
+                    cursor: pointer;
                     transition: background-color 0.2s;
                     transition: color 0.2s;
                 }
@@ -195,7 +195,7 @@ export const Container = styled.div`
                 }
             }
         }
-    }
+    
 
     @media (max-width: 720px) {
         .container-profile {
