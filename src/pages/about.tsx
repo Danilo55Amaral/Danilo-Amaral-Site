@@ -3,10 +3,9 @@ import { Container } from "../styles/about.module";
 import Image from "next/image";
 import Link from "next/link";
 import { IconContext } from "react-icons";
-import { FaReact, FaAngular, FaBootstrap, FaHtml5, FaGithub, FaGitlab, FaSlack, FaGitSquare } from "react-icons/fa";
+import { FaReact, FaAngular, FaBootstrap, FaHtml5, FaGithub, FaGitlab, FaSlack, FaGitSquare, FaLinkedin } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiStyledcomponents, SiTailwindcss, SiTypescript, SiJavascript, SiCss3, SiPhp, SiMysql, SiTrello, SiGoogleanalytics, SiVercel, SiNetlify } from "react-icons/si";
-
 
 export default function about() {
     return (
@@ -169,6 +168,31 @@ export default function about() {
                             </IconContext.Provider>
                         </div>
                     </div>
+                </section>
+                <section className="container-certifications">
+                    <span>Alguns Certificados</span>
+                    <div className="certifications">
+                        <div className="card-certification">
+                            <Image src="/img/certificado-react-coder.PNG" alt="perfil" width={300} height={300} />
+                        </div>
+                        <div className="card-certification">
+                            <Image src="/img/certificado-avanade-aceleracao.PNG" alt="perfil" width={300} height={300} />
+                        </div>
+                        <div className="card-certification">
+                            <Image src="/img/certificado-web-moderno.jpg" alt="perfil" width={300} height={300} />
+                        </div>
+                        <div className="card-certification">
+                            <Image src="/img/certificado-angular-developer.PNG" alt="perfil" width={300} height={300} />
+                        </div>
+                    </div>
+                    <Link href="https://www.linkedin.com/in/danilo-amaral-305457195/">
+                        <button
+                            type="submit"
+                        >
+                            Veja mais
+                            <FaLinkedin />
+                        </button>
+                    </Link>
                 </section>
             </main>
         </Container>

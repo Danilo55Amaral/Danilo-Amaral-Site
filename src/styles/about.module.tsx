@@ -54,7 +54,7 @@ export const Container = styled.div`
                     background: var(--dark-violet);
                     color: var(--white);
                     font-weight: bold;
-                    cursor: pointer
+                    cursor: pointer;
                     transition: background-color 0.2s;
                     transition: color 0.2s;
                 }
@@ -122,6 +122,62 @@ export const Container = styled.div`
                     color: var(--dark-violet);
                 }
         }
+
+        .container-certifications {
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            width: 100%;
+
+            span {
+                align-self: center;
+                font: 600 1.5rem "Roboto", sans-serif;
+                color: var(--orange-500);
+            }
+
+            .certifications {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 30px;
+                background-color: var(--blue-800);
+
+                .card-certification {
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                }
+            }
+
+            button {
+                    padding: 1rem 1.5rem;
+                    margin-top: 1rem;
+                    margin-right: 50px;
+                    border-radius: 8px;
+                    border: 0;
+                    width: 15%;
+                    align-self: flex-end;
+                    background: var(--dark-violet);
+                    color: var(--white);
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: background-color 0.2s;
+                    transition: color 0.2s;
+
+                    svg {
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                    svg:first-child {
+                        margin-right: 1rem;
+                        margin-left: 1rem;
+                    }
+                }
+
+                button:hover {
+                    background-color: var(--hover-blue);
+                    color: var(--dark-violet);
+                }
+        }
     }
 
     @media (max-width: 1080px) {
@@ -169,6 +225,18 @@ export const Container = styled.div`
                 width: 100% !important;
                 margin-bottom: 60px;
             }       
+        }
+
+        .container-certifications {
+
+            .certifications {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            button {
+                width: 50% !important;
+            }
         }
     }
 `;
