@@ -6,6 +6,7 @@ import { IconContext } from "react-icons";
 import { FaReact, FaAngular, FaBootstrap, FaHtml5, FaGithub, FaGitlab, FaSlack, FaGitSquare, FaLinkedin } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiStyledcomponents, SiTailwindcss, SiTypescript, SiJavascript, SiCss3, SiPhp, SiMysql, SiTrello, SiGoogleanalytics, SiVercel, SiNetlify } from "react-icons/si";
+import { Footer } from "../components/Footer";
 
 export default function about() {
     return (
@@ -195,6 +196,7 @@ export default function about() {
                     </Link>
                 </section>
             </main>
+            <Footer /> 
         </Container>
     );
 };
