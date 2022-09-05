@@ -29,46 +29,58 @@ export const Container = styled.div`
 
         .container-cards {
             display: flex;
+            flex-direction: column;
             width: 100%;
             margin-top: 100px;
 
-            .group-cards {
+            .cards {
+                perspective: 1500px;
                 display: flex;
-                justify-content: space-around;
                 width: 100%;
-
-                .card {
-                    display: flex;
-                    width: 18rem;
-
-                    p {
-                        font: 400 1rem "Roboto", sans-serif;
-                        color: black;
-                    }
-                }
+                justify-content: space-around;
             }
+
+            .card {
+                width: 400px;
+                height: 450px;
+                background-size: cover;
+                border: 1px solid rgba(255,255,255, 25);
+                border-radius: 4px;
+                position: relative;
+                transform-style: preserve-3d;
+                will-change: transform;
+                transition: transform .5s;
+            }
+
+            .card:hover {
+                transform: translateZ(10px) rotateX(60deg) rotateY(30deg);
+            }
+
+            .card-title {
+                font: 600 1.5rem "Roboto", sans-serif;
+                color: #FFF;
+                position: absolute;
+                top: 80%;
+                right: 25px;
+                transform: translateY(-50%);
+                transition: transform .5s;
+            }
+
+            .card:hover .card-title {
+                transform: translateZ(50px);
+            }
+   
         }
+
+        
     }
 
     @media (max-width: 1080px) {
-        .group-cards {
-            flex-direction: column;
-            align-items: center;
-            
-            .card {
-                margin-top: 30px;
-            }
-        }
+       
+        
     }
 
     @media (max-width: 720px) {
-        .group-cards {
-            flex-direction: column;
-            align-items: center;
-            
-            .card {
-                margin-top: 30px;
-            }
-        }
+    
     }
 `;

@@ -23,56 +23,65 @@ export default function portfolio() {
                     <span>Portfolio</span>
                 </section>
                 <section className="container-cards">
-                    <div className="group-cards">
-                        <Link href="/">
-                            <div className="card">
-                                <Image
-                                    src="/img/portfolio01.jpg"
-                                    alt="perfil"
-                                    width={300}
-                                    height={250}
-                                />
-                                <p>esse projeto teste esse projeto teste esse<br /> projeto teste esse projeto teste</p>
-                                <p>esse projeto teste esse projeto teste esse<br /> projeto teste esse projeto teste</p>
-                            </div>
-                        </Link>
-                        <Link href="/">
-                            <div className="card">
-                                <Image
-                                    src="/img/portfolio01.jpg"
-                                    alt="perfil"
-                                    width={300}
-                                    height={250}
-                                />
-                                <p>esse projeto teste esse projeto teste esse<br /> projeto teste esse projeto teste</p>
-                                <p>esse projeto teste esse projeto teste esse<br /> projeto teste esse projeto teste</p>
-                            </div>
-                        </Link>
-                        <Link href="/">
-                            <div className="card">
-                                <Image
-                                    src="/img/portfolio01.jpg"
-                                    alt="perfil"
-                                    width={300}
-                                    height={250}
-                                />
-                                <p>esse projeto teste esse projeto teste esse<br /> projeto teste esse projeto teste</p>
-                                <p>esse projeto teste esse projeto teste esse<br /> projeto teste esse projeto teste</p>
-                            </div>
-                        </Link>
-                        <Link href="/">
-                            <div className="card">
-                                <Image
-                                    src="/img/portfolio01.jpg"
-                                    alt="perfil"
-                                    width={300}
-                                    height={250}
-                                />
-                                <p>esse projeto teste esse projeto teste esse<br /> projeto teste esse projeto teste</p>
-                                <p>esse projeto teste esse projeto teste esse<br /> projeto teste esse projeto teste</p>
-                            </div>
-                        </Link>
+                    <div className="cards">
+                        <figure className="card">
+                            <Image
+                                src="/img/portfolio01.jpg"
+                                alt="perfil"
+                                width={400}
+                                height={450}
+                            />
+                            <figcaption className="card-title">Projeto template adm</figcaption>
+                        </figure>
+                        <figure className="card">
+                            <Image
+                                src="/img/portfolio01.jpg"
+                                alt="perfil"
+                                width={400}
+                                height={450}
+                            />
+                            <figcaption className="card-title">Projeto template adm</figcaption>
+                        </figure>
+                        <figure className="card">
+                            <Image
+                                src="/img/portfolio01.jpg"
+                                alt="perfil"
+                                width={400}
+                                height={450}
+                            />
+                            <figcaption className="card-title">Projeto template adm</figcaption>
+                        </figure>
                     </div>
+                    <div className="cards">
+                        <figure className="card">
+                            <Image
+                                src="/img/portfolio01.jpg"
+                                alt="perfil"
+                                width={400}
+                                height={450}
+                            />
+                            <figcaption className="card-title">Projeto template adm</figcaption>
+                        </figure>
+                        <figure className="card">
+                            <Image
+                                src="/img/portfolio01.jpg"
+                                alt="perfil"
+                                width={400}
+                                height={450}
+                            />
+                            <figcaption className="card-title">Projeto template adm</figcaption>
+                        </figure>
+                        <figure className="card">
+                            <Image
+                                src="/img/portfolio01.jpg"
+                                alt="perfil"
+                                width={400}
+                                height={450}
+                            />
+                            <figcaption className="card-title">Projeto template adm</figcaption>
+                        </figure>
+                    </div>
+                   
                 </section>
             </main>
         </Container>
