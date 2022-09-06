@@ -31,21 +31,24 @@ export const Container = styled.div`
             display: flex;
             flex-direction: column;
             width: 100%;
-            margin-top: 100px;
+            margin-top: 80px;
 
             .cards {
                 perspective: 1500px;
                 display: flex;
                 width: 100%;
                 justify-content: space-around;
+                margin-top: 30px;
             }
 
             .card {
+                display: flex;
                 width: 400px;
                 height: 450px;
                 background-size: cover;
                 border: 1px solid rgba(255,255,255, 25);
                 border-radius: 4px;
+                cursor: pointer;
                 position: relative;
                 transform-style: preserve-3d;
                 will-change: transform;
@@ -58,7 +61,7 @@ export const Container = styled.div`
 
             .card-title {
                 font: 600 1.5rem "Roboto", sans-serif;
-                color: #FFF;
+                color: var(--orange-500);
                 position: absolute;
                 top: 80%;
                 right: 25px;
@@ -69,18 +72,30 @@ export const Container = styled.div`
             .card:hover .card-title {
                 transform: translateZ(50px);
             }
-   
         }
-
-        
     }
 
     @media (max-width: 1080px) {
-       
-        
+        .cards {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            margin-top: 30px;
+            width: 330px !important;
+        } 
     }
 
     @media (max-width: 720px) {
-    
+        .cards {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            margin-top: 30px;
+            width: 330px !important;
+        }
     }
 `;
