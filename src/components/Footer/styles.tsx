@@ -24,8 +24,7 @@ export const Container = styled.footer `
             justify-content: center;
             
             p {
-                margin-left: 20px;
-                margin-top: 20px;
+                align-self: center;
             }
         }
    
