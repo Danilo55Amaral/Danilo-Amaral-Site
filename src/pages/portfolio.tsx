@@ -11,11 +11,6 @@ export default function portfolio() {
                 <title>Danilo | Portfólio</title>
             </Head>
             <main>
-                {/* <Image
-                    src="/img/img-fundo.jpg"
-                    alt="perfil"
-                    layout="fill"
-                /> */}
                 <section className="container-title">
                     <div className="image">
                         <Image
