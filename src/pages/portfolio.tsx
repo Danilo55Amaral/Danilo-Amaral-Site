@@ -15,9 +15,10 @@ export default function portfolio() {
                     <div className="image">
                         <Image
                             src="/img/portfolio01.jpg"
-                            alt="perfil"
-                            width={1950}
-                            height={800}
+                            alt="titulo"
+                            layout="fill"
+                            objectFit="fill"
+                            quality={100}
                         />
                     </div>
                     <span>Portfolio</span>
@@ -28,7 +29,7 @@ export default function portfolio() {
                             <figure className="card">
                                 <Image
                                     src="/img/template-admin01.PNG"
-                                    alt="perfil"
+                                    alt="projeto"
                                     width={900}
                                     height={1250}
                                 />
@@ -39,7 +40,7 @@ export default function portfolio() {
                             <figure className="card">
                                 <Image
                                     src="/img/quiz-full-01.PNG"
-                                    alt="perfil"
+                                    alt="projeto"
                                     width={900}
                                     height={1250}
                                 />
@@ -50,7 +51,7 @@ export default function portfolio() {
                             <figure className="card">
                                 <Image
                                     src="/img/dt-money.png"
-                                    alt="perfil"
+                                    alt="projeto"
                                     width={900}
                                     height={1250}
                                 />
@@ -63,7 +64,7 @@ export default function portfolio() {
                             <figure className="card">
                                 <Image
                                     src="/img/lista-tarefas.PNG"
-                                    alt="perfil"
+                                    alt="projeto"
                                     width={900}
                                     height={1250}
                                 />
@@ -74,7 +75,7 @@ export default function portfolio() {
                             <figure className="card">
                                 <Image
                                     src="/img/calculadora-react.PNG"
-                                    alt="perfil"
+                                    alt="projeto"
                                     width={900}
                                     height={1250}
                                 />
@@ -85,7 +86,7 @@ export default function portfolio() {
                             <figure className="card">
                                 <Image
                                     src="/img/Ls-print01.PNG"
-                                    alt="perfil"
+                                    alt="projeto"
                                     width={900}
                                     height={1250}
                                 />

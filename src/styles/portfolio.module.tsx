@@ -10,18 +10,20 @@ export const Container = styled.div`
 
         .container-title {
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             width: 100%;
+            height: 550px;
+            position: relative;
 
             .image {
-                display: flex;
+                z-index: -1;
             }
 
            span {
                 display: flex;
-                margin-top: -100px;
-                align-self: center;
-                position: relative;
+                justify-content: center;
+                width: 100%;
+                margin-top: 400px;
                 font: 600 4rem "Roboto", sans-serif;
                 color: var(--orange-500)
            }

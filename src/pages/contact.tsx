@@ -17,9 +17,10 @@ export default function contact() {
                     <div className="image">
                         <Image
                             src="/img/contato01.jpg"
-                            alt="perfil"
-                            width={1950}
-                            height={800}
+                            alt="titulo"
+                            layout="fill"
+                            objectFit="fill"
+                            quality={100}
                         />
                     </div>
                     <span>Vamos Conversar</span>
@@ -28,7 +29,7 @@ export default function contact() {
                     <div className="bg-image">
                         <Image
                             src="/img/img-fundo.jpg"
-                            alt="perfil"
+                            alt="fundo"
                             layout="fill"
                             objectFit="fill"
                             quality={100}
