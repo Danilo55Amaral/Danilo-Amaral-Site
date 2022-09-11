@@ -86,10 +86,7 @@ export const Container =styled.div `
         }  
     }
 
-    @media (max-width: 1080px) {
-        
-    }
-
+   /* Responsive  */
     @media (max-width: 720px) {
         /* Apenas necessário em telas de celular */
         .container-title {

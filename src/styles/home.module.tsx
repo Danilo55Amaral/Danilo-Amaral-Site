@@ -156,7 +156,6 @@ export const Container = styled.div`
                 }
         }
     }
-
         /* Responsive */
     @media (max-width: 1080px) {
             .container-profile {
@@ -196,7 +195,6 @@ export const Container = styled.div`
             }
         }
     
-
     @media (max-width: 720px) {
         .container-profile {
             flex-direction: column;

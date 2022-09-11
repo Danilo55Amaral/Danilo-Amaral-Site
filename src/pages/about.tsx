@@ -28,11 +28,11 @@ export default function about() {
                         <h1>Sobre mim</h1>
                         <p>
                             Me chamo Danilo, tenho 26 anos, sou natural de Vitória de Santo Antão
-                            Pernambuco, Graduando em análise e desenvolvimento de sistemas (ultimo período).<br /><br />
+                            Pernambuco, graduando em análise e desenvolvimento de sistemas (ultimo período).<br /><br />
                             Desenvolvedor web , tenho experiência em desenvolvimento front-end com projetos pessoais e como freelancer
                             utilizando tecnologias modernas como React, Next, Typescript, Styled-Components, Tailwind CSS e outras ferramentas
                             utilizadas no front end. Iniciei na área de TI em 2019 quando trabalhei na Brisanet telecomunicações
-                            e começei a aprender sobre redes de computadores e tecnologia fibra optica.
+                            e começei a aprender sobre redes de computadores, tecnologia wireless e tecnologia fibra optica.
                             Iniciei meus estudos na área de TI em análise e desenvolvimento de sistemas e pude aprender mais
                             sobre programação.<br /><br />Atualmente trabalho como freelancer desenvolvendo sistemas web e buscando a melhor
                             solução em tecnologia para meus clientes, entre em contato comigo agora mesmo e comece a sua transformação digital.
@@ -174,16 +174,16 @@ export default function about() {
                     <span>Alguns Certificados</span>
                     <div className="certifications">
                         <div className="card-certification">
-                            <Image src="/img/certificado-react-coder.PNG" alt="perfil" width={300} height={300} />
+                            <Image src="/img/certificado-react-coder.PNG" alt="certificado" width={300} height={300} />
                         </div>
                         <div className="card-certification">
-                            <Image src="/img/certificado-avanade-aceleracao.PNG" alt="perfil" width={300} height={300} />
+                            <Image src="/img/certificado-avanade-aceleracao.PNG" alt="certificado" width={300} height={300} />
                         </div>
                         <div className="card-certification">
-                            <Image src="/img/certificado-web-moderno.jpg" alt="perfil" width={300} height={300} />
+                            <Image src="/img/certificado-web-moderno.jpg" alt="certificado" width={300} height={300} />
                         </div>
                         <div className="card-certification">
-                            <Image src="/img/certificado-angular-developer.PNG" alt="perfil" width={300} height={300} />
+                            <Image src="/img/certificado-angular-developer.PNG" alt="certificado" width={300} height={300} />
                         </div>
                     </div>
                     <Link href="https://www.linkedin.com/in/danilo-amaral-305457195/">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Container } from "./styles";
-import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa"
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export function Footer() {
     return (

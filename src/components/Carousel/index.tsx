@@ -12,14 +12,15 @@ export function Carousel() {
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <div className="carousel-inner">
+                    {/* As legendas foram desativadas até que sejam necessárias  */}
+                    <div className="carousel-inner">  
                         <div className="carousel-item img-fluid  active">
                             <Link href="#">
                                 <Image src="/img/image-carousel01.jpg" className="d-block w-100" alt="..." width={1950} height={800} />
                             </Link>
                             {/* <div className="carousel-caption d-none  d-md-block">
-                                <h5>Nome do Convidado</h5>
-                                <p>Breve descrição do convidado com link para o episódio</p>
+                                <h5>titulo</h5>
+                                <p>Descrição</p>
                             </div> */}
                         </div>
                         <div className="carousel-item">
@@ -27,8 +28,8 @@ export function Carousel() {
                                 <Image src="/img/image-carousel02.jpg" className="img-fluid d-block w-100" alt="..." width={1950} height={800} />
                             </Link>
                             {/* <div className="carousel-caption  d-none  d-md-block">
-                                <h5>Nome do Convidado</h5>
-                                <p>Breve descrição do convidado com link para o episódio</p>
+                                <h5>titulo</h5>
+                                <p>Descrição</p>
                             </div> */}
                         </div>
                         <div className="carousel-item">
@@ -36,8 +37,8 @@ export function Carousel() {
                                 <Image src="/img/image-carousel03.jpg" className="img-fluid d-block w-100" alt="..." width={1950} height={800} />
                             </Link>
                             {/* <div className="carousel-caption d-none d-md-block">
-                                <h5>Nome do Convidado</h5>
-                                <p>Breve descrição do convidado com link para o episódio</p>
+                                <h5>titulo</h5>
+                                <p>Descrição</p>
                             </div> */}
                         </div>
 

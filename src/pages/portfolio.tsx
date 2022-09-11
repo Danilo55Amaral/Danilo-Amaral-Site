@@ -15,7 +15,7 @@ export default function portfolio() {
                     <div className="image">
                         <Image
                             src="/img/portfolio01.jpg"
-                            alt="titulo"
+                            alt="capa"
                             layout="fill"
                             objectFit="fill"
                             quality={100}

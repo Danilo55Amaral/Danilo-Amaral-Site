@@ -71,7 +71,6 @@ export const Container = styled.div`
             align-items: center;
             justify-content: center;
             width: 100%;
-            /* height: 400px; */
             margin-top: 80px;
             background-color: var(--blue-800);
 
@@ -180,6 +179,7 @@ export const Container = styled.div`
         }
     }
 
+    /* Responsive  */
     @media (max-width: 1080px) {
         .container-profile {
             flex-direction: column;

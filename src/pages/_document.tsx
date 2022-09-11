@@ -39,3 +39,5 @@ export default class MyDocument extends Document {
         )
     }
 }
+
+/* Essa implementação de código dentro do _document.tsx foi necessária para corrigir um conflito do Next com o Styled-components */

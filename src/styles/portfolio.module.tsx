@@ -77,6 +77,7 @@ export const Container = styled.div`
         }
     }
 
+    /* Responsive   */
     @media (max-width: 1080px) {
         .cards {
             flex-direction: column;
