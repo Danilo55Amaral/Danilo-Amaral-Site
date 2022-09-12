@@ -3,9 +3,9 @@ import { Container } from "../styles/about.module";
 import Image from "next/image";
 import Link from "next/link";
 import { IconContext } from "react-icons";
-import { FaReact, FaAngular, FaBootstrap, FaHtml5, FaGithub, FaGitlab, FaSlack, FaGitSquare, FaLinkedin } from "react-icons/fa";
+import { FaReact, FaAngular, FaBootstrap, FaHtml5, FaGithub, FaGitlab, FaSlack, FaGitSquare, FaLinkedin, FaSass } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiStyledcomponents, SiTailwindcss, SiTypescript, SiJavascript, SiCss3, SiPhp, SiMysql, SiTrello, SiGoogleanalytics, SiVercel, SiNetlify } from "react-icons/si";
+import { SiStyledcomponents, SiTailwindcss, SiTypescript, SiJavascript, SiCss3, SiPhp, SiMysql, SiTrello, SiGoogleanalytics, SiVercel, SiNetlify, SiFigma, SiFirebase } from "react-icons/si";
 import { Footer } from "../components/Footer";
 
 export default function about() {
@@ -117,6 +117,12 @@ export default function about() {
                                 <SiMysql />
                             </IconContext.Provider>
                         </div>
+                        <div className="card">
+                            <span>Sass</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <FaSass />
+                            </IconContext.Provider>
+                        </div>
                     </div>
                     <div className="group-tools">
                         <h1>Ferramentas</h1>
@@ -166,6 +172,18 @@ export default function about() {
                             <span>Netlify Cloud</span>
                             <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
                                 <SiNetlify />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Figma</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiFigma />
+                            </IconContext.Provider>
+                        </div>
+                        <div className="card">
+                            <span>Firebase</span>
+                            <IconContext.Provider value={{ color: "var(--dark-violet)", size: "50%", className: "global-class-name" }}>
+                                <SiFirebase />
                             </IconContext.Provider>
                         </div>
                     </div>
