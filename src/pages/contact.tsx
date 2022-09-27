@@ -16,7 +16,7 @@ export default function contact() {
                 <section className="container-title">
                     <div className="image">
                         <Image
-                            src="/img/contato01.jpg"
+                            src="/img/tec01.jpg"
                             alt="titulo"
                             layout="fill"
                             objectFit="fill"

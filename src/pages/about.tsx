@@ -18,7 +18,7 @@ export default function about() {
                 <section className="container-profile">
                     <div className="image-profile">
                         <Image
-                            src="/img/perfil-sobre.jpg"
+                            src="/img/perfil-sobre01.jpg"
                             alt="perfil"
                             width={600}
                             height={580}
