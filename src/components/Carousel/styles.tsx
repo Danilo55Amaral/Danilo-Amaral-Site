@@ -4,8 +4,8 @@ export const Container = styled.div`
 
 .carousel-container {
       width: 100%;
-      padding-bottom: 30px;
-      cursor: pointer;
+      margin-bottom: 30px;
+     
       
       .carousel-inner, h5, p {
         font: 600 1rem "Roboto", sans-serif;

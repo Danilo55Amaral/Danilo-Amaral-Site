@@ -16,7 +16,7 @@ export function Carousel() {
                     <div className="carousel-inner">  
                         <div className="carousel-item img-fluid  active">
                             <Link href="#">
-                                <Image src="/img/image-carousel01.jpg" className="d-block w-100" alt="..." width={1950} height={800} />
+                                <Image src="/img/nasa.jpg" className="d-block w-100" alt="..." width={1950} height={800} />
                             </Link>
                             {/* <div className="carousel-caption d-none  d-md-block">
                                 <h5>titulo</h5>
@@ -25,7 +25,7 @@ export function Carousel() {
                         </div>
                         <div className="carousel-item">
                             <Link href="#">
-                                <Image src="/img/image-carousel02.jpg" className="img-fluid d-block w-100" alt="..." width={1950} height={800} />
+                                <Image src="/img/tec03.jpg" className="img-fluid d-block w-100" alt="..." width={1950} height={800} />
                             </Link>
                             {/* <div className="carousel-caption  d-none  d-md-block">
                                 <h5>titulo</h5>

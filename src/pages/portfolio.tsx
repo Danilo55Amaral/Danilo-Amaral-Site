@@ -33,7 +33,7 @@ export default function portfolio() {
                                     width={900}
                                     height={1250}
                                 />
-                                <figcaption className="card-title">Projeto template adm</figcaption>
+                                <figcaption className="card-title">Autenticação com Firebase</figcaption>
                             </figure>
                         </Link>
                         <Link href="https://projeto-quiz-full-stack.vercel.app">
