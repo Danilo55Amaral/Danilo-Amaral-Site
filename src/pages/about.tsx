@@ -28,16 +28,16 @@ export default function about() {
                         <h1>Sobre mim</h1>
                         <p>
                             Me chamo Danilo tenho 26 anos e sou natural de Vitória de Santo Antão
-                            Pernambuco, graduando em análise e desenvolvimento de sistemas (último período).<br /><br />
+                            Pernambuco, sou formado em análise e desenvolvimento de sistemas.<br /><br />
                             Desenvolvedor web tenho experiência em desenvolvimento front-end com projetos pessoais e como freelancer
                             utilizando tecnologias modernas como React, Next, Typescript, Styled-Components, Tailwind CSS e outras ferramentas
-                            utilizadas no front end. Estagiei na CMTECH e também tive experiência no back end com php utilizando o ScriptCase 
-                            que é um gerador de aplicações que suporta o Licenciamento Ambiental de PE, além disso também utilizei MySQL e Workbench.
-                            Dentro da CMTECH também trabalhei com metodologia SCRUM onde pude ter vivência com essa metodologia ágil para o desenvolvimento de software.<br /><br />
+                            utilizadas no front end. Estagiei na CMTECH onde adquirir experiência no back end com php utilizando o ScriptCase 
+                            que é um gerador de aplicações que suporta o Licenciamento Ambiental de Pernambuco, além disso também utilizei MySQL e Workbench.
+                            Dentro da CMTECH trabalhei com metodologia SCRUM onde pude ter vivência com essa metodologia ágil para o desenvolvimento de software.<br /><br />
                             Iniciei na área de TI em 2019 quando trabalhei na Brisanet telecomunicações
                             e comecei a aprender sobre redes de computadores, tecnologia wireless e tecnologia fibra óptica.
                             Iniciei meus estudos na área de TI em análise e desenvolvimento de sistemas e pude aprender mais
-                            sobre programação.<br /><br />Atualmente trabalho como freelancer desenvolvendo sistemas web e buscando a melhor
+                            sobre o mundo da programação e me tornar um programador.<br /><br />Atualmente trabalho como freelancer desenvolvendo sistemas web e buscando a melhor
                             solução em tecnologia para meus clientes, entre em contato comigo agora mesmo e comece a sua transformação digital.
                         </p>
                         <Link href="https://wa.me/message/ZAEPJ4ITGJ3WL1">
