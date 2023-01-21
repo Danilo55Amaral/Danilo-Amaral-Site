@@ -10,21 +10,36 @@ export function Footer() {
                     <p>Utilizando a tecnologia para melhorar a vida das pessoas!</p>
                 </div>
                 <div className="content">
-                    <div className="icons">
-                        <span>SIGA-ME:</span>
-                        <Link href="https://www.instagram.com/invites/contact/?i=oci0xypwwkje&utm_content=1zln8sh">
-                            <FaInstagram />
-                        </Link>
-                        <Link href="https://www.linkedin.com/in/danilo-amaral-305457195/">
-                            <FaLinkedin />
-                        </Link>
-                        <Link href="https://wa.me/message/ZAEPJ4ITGJ3WL1">
-                            <FaWhatsapp />
-                        </Link>
-                        <Link href="https://github.com/Danilo55Amaral">
-                            <FaGithub />
-                        </Link>
+                    <div className="icon-group">
+                        <span>SIGA-ME</span>
+                        <div className="icons">
+                            <Link href="https://www.instagram.com/invites/contact/?i=oci0xypwwkje&utm_content=1zln8sh">
+                                <div className="icon">
+                                    <FaInstagram />
+                                    <span>Instagram</span>
+                                </div>
+                            </Link>
+                            <Link href="https://www.linkedin.com/in/danilo-amaral-305457195/">
+                                <div className="icon">
+                                    <FaLinkedin />
+                                    <span>Linkedin</span>
+                                </div>
+                            </Link>
+                            <Link href="https://wa.me/message/ZAEPJ4ITGJ3WL1">
+                                <div className="icon">
+                                    <FaWhatsapp />
+                                    <span>WhatsApp</span>
+                                </div>
+                            </Link>
+                            <Link href="https://github.com/Danilo55Amaral">
+                                <div className="icon">
+                                    <FaGithub />
+                                    <span>GitHub</span>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
+
                     <div className="links">
                         <Link href="/contact">
                             <a>Contato</a>

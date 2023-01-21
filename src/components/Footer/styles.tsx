@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.footer `
+export const Container = styled.footer`
     .footer {
         display: flex;
         flex-direction: column;
@@ -41,20 +41,40 @@ export const Container = styled.footer `
             height:160px;
             margin-top: 10px;
 
-            .icons {
+            .icon-group {
                 display: flex;
                 flex-direction: column;
-                justify-content: space-around;
-                width: 5.5rem;
-                height: 7rem;
-                color: var(--magenta);
+                justify-content: space-evenly;
+                width: 9rem;
+                height: 9rem;
                 cursor: pointer;
+                /* background-color: green; */
             }
 
-            .icons > span {
+            .icon-group > span {
                     font: 800 1rem "Roboto", sans-serif;
-                    color: var(--white);    
+                    align-self: flex-start;
                 }
+
+                .icons {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: baseline;
+                    height: 7rem;
+                    /* background-color: blue; */
+                }
+
+            .icon {
+                display: flex;
+                justify-content: center;
+                margin-left: 30px;
+                /* background-color: red; */
+                
+                span {
+                    margin-left: 5px;
+                }
+            }
         }
 
         span {
