@@ -7,6 +7,17 @@ export const Container = styled.header`
         background-color: var(--blue-900);
         border-bottom: 1px solid var(--gray-900);
 
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+            width: 3rem;
+            height: 3rem;
+            background-color: var(--gray-900);
+        }
+
         .text-uppercase {
             margin: 0 7px;
             padding: 0 7px;
