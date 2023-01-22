@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { Logo } from "../Logo";
 import { Container } from "./styles";
 
 export function Header() {
@@ -9,11 +10,7 @@ export function Header() {
         <Container>
             <nav className="fixed-top navbar navbar-expand-lg navbar-dark p-0">
                 <div className="container">
-                    <Link href="#" className="navbar-brand px-5 mx-5 ">
-                        <div className="logo">
-                            <span className="text-uppercase">DA</span>
-                        </div>
-                    </Link>
+                    <Logo />
                     <button
                         className="navbar-toggler"
                         type="button"
