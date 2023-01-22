@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Container } from "./styles";
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { Logo } from "../Logo";
 
 export function Footer() {
     return (
@@ -55,6 +56,7 @@ export function Footer() {
                             <a>Sobre</a>
                         </Link>
                     </div>
+                    <Logo />
                 </div>
                 <hr />
                 <div className="coppy">
