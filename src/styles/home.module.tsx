@@ -17,10 +17,15 @@ export const Container = styled.div`
             height: 400px;
             background-color: var(--blue-800);
 
-            .image {
+            /* .image {
                 border: solid 5px var(--dark-violet);
                 border-radius: 3px;
                 box-shadow: 10px 15px black;
+            } */
+            .image {
+                /* border: solid 5px var(--dark-violet);
+                border-radius: 3px; */
+                box-shadow: 10px 10px 10px black;
             }
             
             .content {

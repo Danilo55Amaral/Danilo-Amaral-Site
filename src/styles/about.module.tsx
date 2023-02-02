@@ -11,16 +11,15 @@ export const Container = styled.div`
 
         .container-profile {
             display: flex;
-            align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             width: 100%;
             height: 600px;
             background-color: var(--dark); 
 
             .image-profile {
-                border: solid 5px var(--dark-violet);
-                border-radius: 3px;
-                display: flex; 
+                width: 50%;
+                height: 100%;
+                position: relative;
             }
 
             .content-profile {
@@ -185,6 +184,10 @@ export const Container = styled.div`
             flex-direction: column;
             height: 1100px !important;
 
+            .image-profile {
+                width: 100% !important;
+            }
+
             .content-profile {
                 width: 100% !important;
             }
@@ -208,6 +211,10 @@ export const Container = styled.div`
         .container-profile {
             flex-direction: column;
             height: 1100px !important;
+
+             .image-profile {
+                width: 100% !important;
+            }
 
             .content-profile {
                 width: 100% !important;
