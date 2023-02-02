@@ -19,9 +19,9 @@ export default function Home() {
           </div>
           <div className="content">
             <span>Web Labs</span>
-            <h1 data-text="DaniloAmaral">DaniloAmaral</h1>
-            <p>Seja bem-vindo ao meu portfólio conheça alguns dos meus trabalhos<br />
-              como freelancer e também alguns projetos que construir, meu objetivo<br /> é
+            <h1>Danilo Amaral</h1>
+            <p>Seja bem-vindo ao meu portfólio conheça alguns dos meus trabalhos
+              como freelancer e também alguns projetos que construir, meu objetivo é
               transformar de forma positiva a vida das pessoas através da tecnologia.</p>
           </div>
         </section>

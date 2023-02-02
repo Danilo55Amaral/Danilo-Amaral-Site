@@ -17,19 +17,13 @@ export const Container = styled.div`
             height: 400px;
             background-color: var(--blue-800);
 
-            /* .image {
-                border: solid 5px var(--dark-violet);
-                border-radius: 3px;
-                box-shadow: 10px 15px black;
-            } */
             .image {
-                /* border: solid 5px var(--dark-violet);
-                border-radius: 3px; */
                 box-shadow: 10px 10px 10px black;
             }
             
             .content {
                 margin-left: 40px;
+                width: 50%;
 
                 span {
                     font: 600 1.5rem "Roboto", sans-serif;
@@ -38,32 +32,8 @@ export const Container = styled.div`
 
                 h1 {
                     font: 500 3rem "Roboto", sans-serif;
-                    color: var(--blue-800);
-                }
-
-               /*animate */
-                h1::before {
-                    content: attr(data-text);
-                    position: absolute;
-                    width: 0%;
-                    height: 100%;
                     color: var(--white);
-                    overflow: hidden;
-                    animation: animate 6s linear infinite;
-                }
-
-                @keyframes animate {
-                    0%{
-                        width: 0;
-                    }
-                    70%{
-                        width: 50%;
-                    }
-                }
-
-                p {
-                    font: 400 1.2rem "Roboto", sans-serif;
-                }
+                }  
             }
         }
 
@@ -169,6 +139,7 @@ export const Container = styled.div`
 
                 .content {
                     margin-top: 30px;
+                    width: 90% !important;
                 }
             }
 
@@ -207,6 +178,7 @@ export const Container = styled.div`
 
             .content {
                 margin-top: 30px;
+                width: 90% !important;
             }
 
             /* animate - necessario alteração apenas em max-width: 720px  */
