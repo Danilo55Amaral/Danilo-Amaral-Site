@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { Container } from "../styles/portfolio.module";
 import Image from "next/image";
-import Link from "next/link";
 import { Footer } from "../components/Footer";
+import { Card } from "../components/Card";
 
 export default function portfolio() {
     return (
@@ -24,76 +24,64 @@ export default function portfolio() {
                     <span>Portfolio</span>
                 </section>
                 <section className="container-cards">
-                    <div className="cards">
-                        <Link href="https://projeto-template-administrativo.vercel.app/authentication">
-                            <figure className="card">
-                                <Image
-                                    src="/img/template-admin01.PNG"
-                                    alt="projeto"
-                                    width={900}
-                                    height={1250}
-                                />
-                                <figcaption className="card-title">Autenticação com Firebase</figcaption>
-                            </figure>
-                        </Link>
-                        <Link href="https://projeto-quiz-full-stack.vercel.app">
-                            <figure className="card">
-                                <Image
-                                    src="/img/quiz-full-01.PNG"
-                                    alt="projeto"
-                                    width={900}
-                                    height={1250}
-                                />
-                                <figcaption className="card-title">Projeto Quiz</figcaption>
-                            </figure>
-                        </Link>
-                        <Link href="https://github.com/Danilo55Amaral/dtmoney">
-                            <figure className="card">
-                                <Image
-                                    src="/img/dt-money.png"
-                                    alt="projeto"
-                                    width={900}
-                                    height={1250}
-                                />
-                                <figcaption className="card-title">Controle de Finanças</figcaption>
-                            </figure>
-                        </Link>
-                    </div>
-                    <div className="cards">
-                        <Link href="https://lista-de-tarefas-mauve.vercel.app">
-                            <figure className="card">
-                                <Image
-                                    src="/img/lista-tarefas.PNG"
-                                    alt="projeto"
-                                    width={900}
-                                    height={1250}
-                                />
-                                <figcaption className="card-title">Lista de tarefas</figcaption>
-                            </figure>
-                        </Link>
-                        <Link href="https://calculadora-seven-liard.vercel.app">
-                            <figure className="card">
-                                <Image
-                                    src="/img/calculadora-react.PNG"
-                                    alt="projeto"
-                                    width={900}
-                                    height={1250}
-                                />
-                                <figcaption className="card-title">Calculadora</figcaption>
-                            </figure>
-                        </Link>
-                        <Link href="/portfolio">
-                            <figure className="card">
-                                <Image
-                                    src="/img/Ls-print01.PNG"
-                                    alt="projeto"
-                                    width={900}
-                                    height={1250}
-                                />
-                                <figcaption className="card-title">Sistema de Gestão</figcaption>
-                            </figure>
-                        </Link>
-                    </div>
+                    <figure className="card">
+                        <Card
+                            titulo="Template Administrativo"
+                            image="/img/template-admin01.PNG"
+                            link="https://github.com/Danilo55Amaral/Projeto-Template-Administrativo"
+                        />
+                    </figure>
+                    <figure className="card">
+                        <Card
+                            titulo="Ignite Timer"
+                            image="/img/ignite-timer.PNG"
+                            link="https://github.com/Danilo55Amaral/Ignite-Timer"
+                        />
+                    </figure>
+                    <figure className="card">
+                        <Card
+                            titulo="Ignite Feed"
+                            image="/img/ignite-feed.png"
+                            link="https://github.com/Danilo55Amaral/Ignite-Feed"
+                        />
+                    </figure>
+                    <figure className="card">
+                        <Card
+                            titulo="Dt Money"
+                            image="/img/dt-money-01.png"
+                            link="https://github.com/Danilo55Amaral/dtmoney"
+                        />
+                    </figure>
+                </section>
+                <section className="container-cards">
+                    <figure className="card">
+                        <Card
+                            titulo="Quiz Projeto FullStack"
+                            image="/img/quiz-full-01.PNG"
+                            link="https://github.com/Danilo55Amaral/Projeto-Quiz-FullStack"
+                        />
+                    </figure>
+                    <figure className="card">
+                        <Card
+                            titulo="Monty Hall"
+                            image="/img/montyHall03.jpg"
+                            link="https://github.com/Danilo55Amaral/Desafio-Monty-Hall"
+                        />
+                    </figure>
+                    <figure className="card">
+                        <Card
+                            titulo="Lista de Tarefas"
+                            image="/img/projeto-lista-01.jpg"
+                            link="https://github.com/Danilo55Amaral/Desafio-Projeto-Lista"
+                        />
+                    </figure>
+                    <figure className="card">
+                        <Card
+                            titulo="Calculadora"
+                            image="/img/calculadora-react.PNG"
+                            link="https://github.com/Danilo55Amaral/Desafio-Calculadora-React"
+                        />
+                    </figure>
                 </section>
             </main>
             <Footer />
