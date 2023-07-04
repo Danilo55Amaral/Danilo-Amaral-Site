@@ -13,7 +13,7 @@ export const Container = styled.div`
             display: flex;
             justify-content: space-between;
             width: 100%;
-            height: 600px;
+            height: 800px;
             background-color: var(--dark); 
 
             .image-profile {
@@ -210,7 +210,7 @@ export const Container = styled.div`
     @media (max-width: 720px) {
         .container-profile {
             flex-direction: column;
-            height: 1100px !important;
+            height: 1300px !important;
 
              .image-profile {
                 width: 100% !important;
@@ -218,6 +218,10 @@ export const Container = styled.div`
 
             .content-profile {
                 width: 100% !important;
+            }
+
+            button {
+                margin-bottom: 20px !important;
             }
         }
 
