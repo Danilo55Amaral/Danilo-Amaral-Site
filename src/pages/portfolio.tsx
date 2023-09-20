@@ -45,13 +45,15 @@ export default function portfolio() {
                             </footer>
                         </figure>
                     </Link>
-                    <figure className="skill-card">
-                        <Image src="/img/data-science01.jpg" alt="perfil" width={520} height={480} />
-                        <footer>
-                            <strong>Ciência de Dados</strong>
-                            <span>Clique na Imagem</span>
-                        </footer>
-                    </figure>
+                    <Link href="/data">
+                        <figure className="skill-card">
+                            <Image src="/img/data-science01.jpg" alt="perfil" width={520} height={480} />
+                            <footer>
+                                <strong>Ciência de Dados</strong>
+                                <span>Clique na Imagem</span>
+                            </footer>
+                        </figure>
+                    </Link>
                 </section>
             </main>
             <Footer />

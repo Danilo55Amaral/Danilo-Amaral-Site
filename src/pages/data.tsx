@@ -1,27 +1,27 @@
 import Head from "next/head";
-import { Container } from "../styles/back.module";
+import { Container } from "../styles/data.module";
 import Image from "next/image";
 import { Footer } from "../components/Footer";
 import { Card } from "../components/Card";
 
-export default function back() {
+export default function data() {
     return (
         <Container>
             <Head>
-                <title>Danilo | Back</title>
+                <title>Danilo | Ciência de Dados</title>
             </Head>
             <main>
                 <section className="container-title">
                     <div className="image">
                         <Image
-                            src="/img/data-science.jpg"
+                            src="/img/data-science01.jpg"
                             alt="capa"
                             layout="fill"
                             objectFit="fill"
                             quality={100}
                         />
                     </div>
-                    <span>Back End</span>
+                        <span>Ciência de Dados</span>
                 </section>
                 <section className="container-cards">
                     <figure className="card">
@@ -33,9 +33,9 @@ export default function back() {
                     </figure>
                     <figure className="card">
                         <Card
-                            titulo="API Restful Nodejs (Nesse projeto foi desenvolvido uma API utilizando Node com TypeScript e outras ferramentas)"
-                            image="/img/tec02.jpg"
-                            link="https://github.com/Danilo55Amaral/Api-Restful-Nodejs"
+                            titulo="Python para Ciência de Dados (Utilizando bibliotecas como Pandas e NumPy que são amplamente utilizadas em Ciência de Dados)"
+                            image="/img/pandas01.PNG"
+                            link="https://github.com/Danilo55Amaral/Python-para-Ciencia-de-Dados"
                         />
                     </figure>
                     <figure className="card">
@@ -70,9 +70,9 @@ export default function back() {
                     </figure>
                     <figure className="card">
                         <Card
-                            titulo="Fundamentos do Nodejs (API RESTful utilizando Node.JS feita a mão sem o uso de quaisquer dependências externas)"
-                            image="/img/tec02.jpg"
-                            link="https://github.com/Danilo55Amaral/Fundamentos-Nodejs"
+                            titulo="MyBank (O MyBank é um sistema bancário capaz de realizar algumas operações bancárias)"
+                            image="/img/bank01.PNG"
+                            link="https://github.com/Danilo55Amaral/Desafio-Sistema-Bancario-Python"
                         />
                     </figure>
                     <figure className="card">
