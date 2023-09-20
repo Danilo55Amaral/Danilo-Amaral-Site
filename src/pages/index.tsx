@@ -30,11 +30,11 @@ export default function Home() {
           <h1>A melhor solução online para o seu negócio</h1>
           <div className="group-services">
             <div className="card-services">
-              <Image src="/img/web-site.jpg" alt="serviços" width={200} height={200} />
+              <Image src="/img/front-end01.jpg" alt="serviços" width={200} height={200} />
               <span>Web Sites</span>
             </div>
             <div className="card-services">
-              <Image src="/img/presenca-digital.jpg" alt="serviços" width={200} height={200} />
+              <Image src="/img/portfolio02.jpg" alt="serviços" width={200} height={200} />
               <span>Presença Digital</span>
             </div>
             <div className="card-services">
@@ -42,8 +42,8 @@ export default function Home() {
               <span>Blogs</span>
             </div>
             <div className="card-services">
-              <Image src="/img/seo.jpg" alt="serviços" width={200} height={200} />
-              <span>SEO</span>
+              <Image src="/img/data-science01.jpg" alt="serviços" width={200} height={200} />
+              <span>Ciência de Dados</span>
             </div>
           </div>
         </section>

@@ -30,26 +30,82 @@ export const Container = styled.div`
            }
         }
 
-        .container-cards {
+        .text-area {
+            margin-top: 100px;
+            font: 600 4rem "Roboto", sans-serif;
+            color: green;
+        }
+
+        .container-skills {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+            height: 700px;
             width: 100%;
-            margin-top: 80px;
+            background-color: var(--dark);
+            
+            .skill-card {
+                cursor: pointer;
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                align-Items: center;
+                justify-Content: center;
+
+                footer {
+                    position: absolute;
+                    width: 100%;
+                    height: 30%;
+                    padding: 2rem;
+
+                    display: flex;
+                    align-Items: center;
+                    justify-Content: space-between;
+                    background-Color: rgba(0, 0, 0, 0.6);
+
+                    strong {
+                        font-Size: lg;
+                    }
+
+                    span {
+                        font-Size: xl;
+                        font-Weight: bold;
+                        color: green;
+                    }
+
+                    transform: translateY(110%);
+                    opacity: 0;
+                    transition: all 0.2s ease-in-out;
+                }
+
+                footer:hover {
+                        transform: translateY(100%);
+                        opacity: 1
+                    }
+            }
         }
     }
-
-    /* Responsive   */
+    /* Responsive */ 
     @media (max-width: 1080px) {
-        .container-cards {
+        .container-skills {
             flex-direction: column;
-            align-items: center;
+            height: 1500px !important;
+        }
+
+        .text-area {
+            margin-left: 30px;
         }
     }
 
     @media (max-width: 720px) {
-        .container-cards {
+        .container-skills {
             flex-direction: column;
-            align-items: center;
-        } 
+            height: 1500px !important;
+        }
+
+        .text-area {
+            margin-left: 30px;
+        }
     }
 `;
