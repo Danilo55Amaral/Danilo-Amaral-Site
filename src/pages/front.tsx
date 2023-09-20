@@ -34,7 +34,7 @@ export default function front() {
                     <figure className="card">
                         <Card
                             titulo="DT Money 2.0 (Nova versão do Sistema de controle de finanças com novas funcionalidades e um visual mais clean)"
-                            image="/img/finance-02.png"
+                            image="/img/finance-02.PNG"
                             link="https://github.com/Danilo55Amaral/dtmoney2.0"
                         />
                     </figure>
