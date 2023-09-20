@@ -62,6 +62,12 @@ export const Container = styled.header`
                 background: var(--magenta);
             } 
         }
+
+        h1 {
+            font: 600 2rem "Roboto", sans-serif;
+            color: var(--orange-500);
+            margin-left: 10px;
+        }
     }
 
          /* Responsive */

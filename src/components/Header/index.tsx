@@ -11,6 +11,7 @@ export function Header() {
             <nav className="fixed-top navbar navbar-expand-lg navbar-dark p-0">
                 <div className="container">
                     <Logo />
+                    <h1>Danilo Amaral</h1>
                     <button
                         className="navbar-toggler"
                         type="button"
