@@ -27,33 +27,42 @@ export default function portfolio() {
                     <span>Escolha uma área</span>
                 </div>
                 <section className="container-skills">
-                    <Link href="/front">
-                        <figure className="skill-card">
-                            <Image src="/img/front-end01.jpg" alt="perfil" width={520} height={480} />
-                            <footer>
-                                <strong>Front end</strong>
-                                <span>Clique na Imagem</span>
-                            </footer>
-                        </figure>
-                    </Link>
-                    <Link href="/back">
-                        <figure className="skill-card">
-                            <Image src="/img/data-science.jpg" alt="perfil" width={520} height={480} />
-                            <footer>
-                                <strong>Back end</strong>
-                                <span>Clique na Imagem</span>
-                            </footer>
-                        </figure>
-                    </Link>
-                    <Link href="/data">
-                        <figure className="skill-card">
-                            <Image src="/img/data-science01.jpg" alt="perfil" width={520} height={480} />
-                            <footer>
-                                <strong>Ciência de Dados</strong>
-                                <span>Clique na Imagem</span>
-                            </footer>
-                        </figure>
-                    </Link>
+                    <div className="skill">
+                        <Link href="/front">
+                            <figure className="skill-card">
+                                <Image src="/img/front-end01.jpg" alt="perfil" width={520} height={480} />
+                                <footer>
+                                    <strong>Front end</strong>
+                                    <span>Clique na Imagem</span>
+                                </footer>
+                            </figure>
+                        </Link>
+                        <span>Front End</span>
+                    </div>
+                    <div className="skill">
+                        <Link href="/back">
+                            <figure className="skill-card">
+                                <Image src="/img/data-science.jpg" alt="perfil" width={520} height={480} />
+                                <footer>
+                                    <strong>Back end</strong>
+                                    <span>Clique na Imagem</span>
+                                </footer>
+                            </figure>
+                        </Link>
+                        <span>Back End</span>
+                    </div>
+                    <div className="skill">
+                        <Link href="/data">
+                            <figure className="skill-card">
+                                <Image src="/img/data-science01.jpg" alt="perfil" width={520} height={480} />
+                                <footer>
+                                    <strong>Ciência de Dados</strong>
+                                    <span>Clique na Imagem</span>
+                                </footer>
+                            </figure>
+                        </Link>
+                        <span>Ciência de Dados</span>
+                    </div>
                 </section>
             </main>
             <Footer />

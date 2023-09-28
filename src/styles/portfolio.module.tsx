@@ -44,6 +44,14 @@ export const Container = styled.div`
             height: 700px;
             width: 100%;
             background-color: var(--dark);
+
+            .skill {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font: 600 1.5rem "Roboto", sans-serif;
+                color: var(--orange-500);
+            }
             
             .skill-card {
                 cursor: pointer;
