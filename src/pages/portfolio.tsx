@@ -14,7 +14,7 @@ export default function portfolio() {
                 <section className="container-title">
                     <div className="image">
                         <Image
-                            src="/img/inteligencia-01.jpg"
+                            src="/img/danilo04.jpg"
                             alt="capa"
                             layout="fill"
                             objectFit="fill"

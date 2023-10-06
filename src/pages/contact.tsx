@@ -16,7 +16,7 @@ export default function contact() {
                 <section className="container-title">
                     <div className="image">
                         <Image
-                            src="/img/inteligencia-02.jpg"
+                            src="/img/danilo02.jpg"
                             alt="titulo"
                             layout="fill"
                             objectFit="fill"
@@ -28,7 +28,7 @@ export default function contact() {
                 <section className="container-contact">
                     <div className="bg-image">
                         <Image
-                            src="/img/image-carousel03.jpg"
+                            src="/img/front-end01.jpg"
                             alt="fundo"
                             layout="fill"
                             objectFit="fill"

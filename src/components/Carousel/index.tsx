@@ -24,7 +24,7 @@ export function Carousel() {
                     <div className="carousel-inner">  
                         <div className="carousel-item img-fluid  active">
                             <Link href="#">
-                                <Image src="/img/inteligencia-02.jpg" className="d-block w-100" alt="..." width={1950} height={800} />
+                                <Image src="/img/danilo03.jpg" className="d-block w-100" alt="..." width={1950} height={800} />
                             </Link>
                             {/* <div className="carousel-caption d-none  d-md-block">
                                 <h5>titulo</h5>
